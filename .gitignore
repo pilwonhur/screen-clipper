@@ -1,0 +1,22 @@
+# Build output (normally built to ~/Library/Caches/ScreenClipper, but just in case)
+.build/
+.swiftpm/
+*.xcodeproj/
+DerivedData/
+*.app/
+
+# Local test output
+spike-out/
+out/
+
+# Personal notes and logs
+worklog/
+
+# Never commit signing material or secrets
+*.p12
+*.pem
+*.key
+*.cer
+.env
+
+.DS_Store
